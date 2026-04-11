@@ -127,7 +127,7 @@ A production-grade crypto exchange (similar to Binance) with **3 frontend apps**
 </tr>
 </table>
 
-
+<!-- 
 ---
 
 ## Featured Projects
@@ -139,7 +139,7 @@ A production-grade crypto exchange (similar to Binance) with **3 frontend apps**
 | 🏗️ **Microservices** | 15+ distributed services with CQRS & event sourcing | NestJS, Docker, Redis, PM2 |
 | ⚡ **Market Data Feed** | Real-time price aggregation from 6+ exchanges | Node.js, Protobuf, WebSocket |
 | 💰 **Wallet System** | Multi-currency wallet with FIFO P&L tracking | NestJS, MongoDB, TypeScript |
-| 🤖 **Bot Gateway** | Automated trading bot system with Slack alerts | NestJS, Slack API, WebSocket |
+| 🤖 **Bot Gateway** | Automated trading bot system with Slack alerts | NestJS, Slack API, WebSocket | -->
 
 
 ## GitHub Stats
