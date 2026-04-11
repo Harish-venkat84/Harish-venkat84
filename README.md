@@ -3,6 +3,7 @@
 </h1>
 
 <p align="center">
+  <a href="https://harish-venkat84.github.io/portfolio-next-js/"><img src="https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/harish-software-engineer/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:harish.venkatesan23@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=Harish-venkat84&style=for-the-badge&color=6C63FF" alt="Profile Views" />
@@ -14,9 +15,10 @@
 
 I'm a **Full Stack Developer** building high-performance cryptocurrency exchange platforms with **15+ microservices**, handling **10,000+ concurrent WebSocket connections** in production.
 
-- Building production-grade trading engines (Spot + Futures) with FIFO matching, liquidation systems, and real-time order books
-- Designing distributed systems with NestJS microservices, CQRS event sourcing, and Redis-backed horizontal scaling
-- Integrating live market data from **6+ crypto exchanges** using WebSocket and Protobuf binary protocols
+- 🔥 Building production-grade trading engines (Spot + Futures) with FIFO matching, liquidation systems, and real-time order books
+- 🏗️ Designing distributed systems with NestJS microservices, CQRS event sourcing, and Redis-backed horizontal scaling
+- 📡 Integrating live market data from **6+ crypto exchanges** using WebSocket and Protobuf binary protocols
+- 🌐 Check out my **[Portfolio Website](https://github.com/Harish-venkat84/portfolio-next-js)** — built with Next.js 16, Framer Motion, and Tailwind CSS
 
 ---
 
@@ -77,9 +79,11 @@ I'm a **Full Stack Developer** building high-performance cryptocurrency exchange
 
 ## What I've Built
 
-### Cryptocurrency Exchange Platform
+### 🏦 Cryptocurrency Exchange Platform
 
 A production-grade crypto exchange (similar to Binance) with **3 frontend apps**, **15+ NestJS microservices**, and real-time market data infrastructure.
+
+> 🌐 **[View my Portfolio](https://github.com/Harish-venkat84/portfolio-next-js)** for a detailed interactive showcase of all projects
 
 <table>
 <tr>
@@ -124,7 +128,7 @@ A production-grade crypto exchange (similar to Binance) with **3 frontend apps**
 </table>
 
 <details>
-<summary><b>Architecture Overview</b></summary>
+<summary><b>🏗️ Architecture Overview</b></summary>
 <br/>
 
 ```
@@ -141,18 +145,18 @@ A production-grade crypto exchange (similar to Binance) with **3 frontend apps**
                                        │
               ┌────────────────────────┼────────────────────────┐
               │                        │                        │
-     ┌────────▼────────┐    ┌─────────▼─────────┐   ┌─────────▼─────────┐
-     │  Trading Engine │    │   User Services   │   │  Data Services    │
-     │  ┌────────────┐ │    │  ┌─────────────┐  │   │  ┌─────────────┐  │
-     │  │ Spot FIFO  │ │    │  │  IAM + Auth  │  │   │  │ Candlestick │  │
-     │  │ Futures    │ │    │  │  Wallet      │  │   │  │ Exchange    │  │
-     │  │ Liquidation│ │    │  │  Trader-User │  │   │  │ Logger      │  │
-     │  └────────────┘ │    │  └─────────────┘  │   │  └─────────────┘  │
-     └────────┬────────┘    └─────────┬─────────┘   └─────────┬─────────┘
+     ┌────────▼────────┐   ┌─────────▼─────────┐   ┌─────────▼─────────┐
+     │  Trading Engine │   │  User Services    │   │  Data Services    │
+     │  ┌────────────┐ │   │  ┌─────────────┐  │   │  ┌─────────────┐  │
+     │  │ Spot FIFO  │ │   │  │  IAM + Auth  │  │   │  │ Candlestick │  │
+     │  │ Futures    │ │   │  │  Wallet      │  │   │  │ Exchange    │  │
+     │  │ Liquidation│ │   │  │  Trader-User │  │   │  │ Logger      │  │
+     │  └────────────┘ │   │  └─────────────┘  │   │  └─────────────┘  │
+     └────────┬────────┘   └─────────┬─────────┘   └─────────┬─────────┘
               │                       │                        │
      ┌────────▼───────────────────────▼────────────────────────▼────────┐
-     │                     Shared Infrastructure                        │
-     │  MongoDB   │   Redis (Cache/PubSub)   │   Bull Queues   │ Kafka │
+     │                    Shared Infrastructure                         │
+     │  MongoDB  │   Redis (Cache/PubSub)   │   Bull Queues   │ Kafka  │
      └──────────────────────────────────────────────────────────────────┘
               │
      ┌────────▼────────┐
@@ -166,6 +170,19 @@ A production-grade crypto exchange (similar to Binance) with **3 frontend apps**
 ```
 
 </details>
+
+---
+
+## Featured Projects
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| 🌐 **[Portfolio Website](https://github.com/Harish-venkat84/portfolio-next-js)** | Animated portfolio with project showcase, tech proficiency bars, and system architecture diagrams | Next.js 16, Framer Motion, Tailwind CSS |
+| 📈 **Crypto Exchange** | Full-featured spot & futures trading platform | NestJS, MongoDB, Redis, WebSocket |
+| 🏗️ **Microservices** | 15+ distributed services with CQRS & event sourcing | NestJS, Docker, Redis, PM2 |
+| ⚡ **Market Data Feed** | Real-time price aggregation from 6+ exchanges | Node.js, Protobuf, WebSocket |
+| 💰 **Wallet System** | Multi-currency wallet with FIFO P&L tracking | NestJS, MongoDB, TypeScript |
+| 🤖 **Bot Gateway** | Automated trading bot system with Slack alerts | NestJS, Slack API, WebSocket |
 
 ---
 
