@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Hi+%F0%9F%91%8B%2C+I'm+Harish+V;Full+Stack+Developer;Microservices+Architect;Real-Time+Systems+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=160&lines=Hi+%F0%9F%91%8B%2C+I'm+Harish+V;Full+Stack+Developer;Microservices+Architect;Real-Time+Systems+Engineer" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -15,10 +15,10 @@
 
 I'm a **Full Stack Developer** building high-performance cryptocurrency exchange platforms with **15+ microservices**, handling **10,000+ concurrent WebSocket connections** in production.
 
-- 🔥 Building production-grade trading engines (Spot + Futures) with FIFO matching, liquidation systems, and real-time order books
-- 🏗️ Designing distributed systems with NestJS microservices, CQRS event sourcing, and Redis-backed horizontal scaling
-- 📡 Integrating live market data from **6+ crypto exchanges** using WebSocket and Protobuf binary protocols
-- 🌐 Check out my **[Portfolio Website](https://github.com/Harish-venkat84/portfolio-next-js)** — built with Next.js 16, Framer Motion, and Tailwind CSS
+- Building production-grade trading engines (Spot + Futures) with FIFO matching, liquidation systems, and real-time order books
+- Designing distributed systems with NestJS microservices, CQRS event sourcing, and Redis-backed horizontal scaling
+- Integrating live market data from **6+ crypto exchanges** using WebSocket and Protobuf binary protocols
+- Check out my **[Portfolio Website](https://harish-portfolio-eight-kohl.vercel.app)** — built with Next.js 16, Framer Motion, and Tailwind CSS
 
 ---
 
@@ -127,49 +127,6 @@ A production-grade crypto exchange (similar to Binance) with **3 frontend apps**
 </tr>
 </table>
 
-<details>
-<summary><b>🏗️ Architecture Overview</b></summary>
-<br/>
-
-```
-                              ┌─────────────────┐
-                              │   Next.js Apps   │
-                              │ Trader/Admin/CRM │
-                              └────────┬────────┘
-                                       │
-                              ┌────────▼────────┐
-                              │  API Gateways   │
-                              │ (Rate Limiting,  │
-                              │  JWT, Throttle)  │
-                              └────────┬────────┘
-                                       │
-              ┌────────────────────────┼────────────────────────┐
-              │                        │                        │
-     ┌────────▼────────┐   ┌─────────▼─────────┐   ┌─────────▼─────────┐
-     │  Trading Engine │   │  User Services    │   │  Data Services    │
-     │  ┌────────────┐ │   │  ┌─────────────┐  │   │  ┌─────────────┐  │
-     │  │ Spot FIFO  │ │   │  │  IAM + Auth  │  │   │  │ Candlestick │  │
-     │  │ Futures    │ │   │  │  Wallet      │  │   │  │ Exchange    │  │
-     │  │ Liquidation│ │   │  │  Trader-User │  │   │  │ Logger      │  │
-     │  └────────────┘ │   │  └─────────────┘  │   │  └─────────────┘  │
-     └────────┬────────┘   └─────────┬─────────┘   └─────────┬─────────┘
-              │                       │                        │
-     ┌────────▼───────────────────────▼────────────────────────▼────────┐
-     │                    Shared Infrastructure                         │
-     │  MongoDB  │   Redis (Cache/PubSub)   │   Bull Queues   │ Kafka  │
-     └──────────────────────────────────────────────────────────────────┘
-              │
-     ┌────────▼────────┐
-     │  WebSocket Hub  │──── 10 Gateways (Spot/Futures/Forex/Chat/Presence)
-     └────────┬────────┘
-              │
-     ┌────────▼────────┐
-     │ Exchange Feeder │──── Binance, MEXC, Bybit, Kraken, KuCoin, OKX
-     │  (Protobuf/WS)  │
-     └─────────────────┘
-```
-
-</details>
 
 ---
 
@@ -184,17 +141,16 @@ A production-grade crypto exchange (similar to Binance) with **3 frontend apps**
 | 💰 **Wallet System** | Multi-currency wallet with FIFO P&L tracking | NestJS, MongoDB, TypeScript |
 | 🤖 **Bot Gateway** | Automated trading bot system with Slack alerts | NestJS, Slack API, WebSocket |
 
----
 
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Harish-venkat84&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api?username=Harish-venkat84&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" /> -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Harish-venkat84&theme=tokyonight&hide_border=true" height="170" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harish-venkat84&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harish-venkat84&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170" /> -->
 </p>
 
 ---
