@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://harish-venkat84.github.io/portfolio-next-js/"><img src="https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://harish-portfolio-eight-kohl.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6C63FF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/harish-software-engineer/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:harish.venkatesan23@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=Harish-venkat84&style=for-the-badge&color=6C63FF" alt="Profile Views" />
